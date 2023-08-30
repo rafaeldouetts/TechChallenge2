@@ -17,20 +17,20 @@
 
 ### Gerenciamento de Noticias
 - Endpoints para manutenção de noticias (CRUD).
-![image](https://github.com/JairJr/TechChallenge2/assets/29376086/3850f337-ceca-4cf5-85ba-f32a90fa946a)
+- ![image](https://github.com/JairJr/TechChallenge2/assets/29376086/3850f337-ceca-4cf5-85ba-f32a90fa946a)
 
 ### ElmahCore para observabilidade de possiveis falhas ou erros
-![image](https://github.com/JairJr/TechChallenge2/assets/29376086/c9fa0bb7-c340-46ee-88df-b4716551f0fb)
+- ![image](https://github.com/JairJr/TechChallenge2/assets/29376086/c9fa0bb7-c340-46ee-88df-b4716551f0fb)
 
 
 ### Docker para publicação da solução
-![image](https://github.com/JairJr/TechChallenge2/assets/29376086/587c7802-0697-4090-8e0a-a83268e5f543)
+- ![image](https://github.com/JairJr/TechChallenge2/assets/29376086/587c7802-0697-4090-8e0a-a83268e5f543)
 - para que o projeto possa ser executado no docker é necessário acessar a pasta NoticiasAPI e executar os seguintes comandos através do terminal:
 - docker build . -t noticiaapi
 - docker run -p 8080:5000 -e ASPNETCORE_ENVIRONMENT=Development noticiaapi --name noticiaapi
 
-  [Documentação do docker para .NET](https://docs.docker.com/language/dotnet/build-images/)
-  [Documentação do ElmahCore](https://github.com/ElmahCore/ElmahCore)
+Docker [Documentação do docker para .NET](https://docs.docker.com/language/dotnet/build-images/)
+ElmahCore [Documentação do ElmahCore](https://github.com/ElmahCore/ElmahCore)
 
 
 
