@@ -1,0 +1,25 @@
+﻿################################################################################
+# Este arquivo .gitignore foi criado automaticamente pelo Microsoft(R) Visual Studio.
+################################################################################
+
+/TechChallenge2/NoticiasAPI/obj/Docker/publish
+/TechChallenge2/NoticiasAPI/log
+/TechChallenge2/NoticiasAPI/bin/Debug/net7.0/NoticiasAPI.dll
+/TechChallenge2/NoticiasAPI/bin/Debug/net7.0/NoticiasAPI.pdb
+/TechChallenge2/NoticiasAPI/bin/Release/net7.0/runtimes
+/TechChallenge2/NoticiasAPI/bin/Release/net7.0
+/TechChallenge2/NoticiasAPI/obj/Container
+/TechChallenge2/NoticiasAPI/obj/Debug/net7.0/NoticiasAPI.pdb
+/TechChallenge2/NoticiasAPI/obj/Debug/net7.0/NoticiasAPI.genruntimeconfig.cache
+/TechChallenge2/NoticiasAPI/obj/Debug/net7.0/NoticiasAPI.dll
+/TechChallenge2/NoticiasAPI/obj/Debug/net7.0/NoticiasAPI.csproj.FileListAbsolute.txt
+/TechChallenge2/NoticiasAPI/obj/Debug/net7.0/NoticiasAPI.assets.cache
+/TechChallenge2/NoticiasAPI/obj/Debug/net7.0/NoticiasAPI.AssemblyInfoInputs.cache
+/TechChallenge2/NoticiasAPI/obj/Debug/net7.0/NoticiasAPI.AssemblyInfo.cs
+/TechChallenge2/NoticiasAPI/obj/Release/net7.0
+/TechChallenge2/NoticiasAPI/obj/project.nuget.cache
+/TechChallenge2/NoticiasAPI/obj/project.assets.json
+/TechChallenge2/NoticiasAPI/obj/NoticiasAPI.csproj.nuget.g.targets
+/TechChallenge2/NoticiasAPI/obj/NoticiasAPI.csproj.nuget.g.props
+/TechChallenge2/NoticiasAPI/obj/NoticiasAPI.csproj.nuget.g.targets
+/TechChallenge2/NoticiasAPI/obj/NoticiasAPI.csproj.nuget.dgspec.json
