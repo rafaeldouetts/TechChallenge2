@@ -29,8 +29,8 @@
 - docker build . -t noticiaapi
 - docker run -p 8080:5000 -e ASPNETCORE_ENVIRONMENT=Development noticiaapi --name noticiaapi
 
-Docker [Documentação do docker para .NET](https://docs.docker.com/language/dotnet/build-images/)
-ElmahCore [Documentação do ElmahCore](https://github.com/ElmahCore/ElmahCore)
+- Docker [Documentação do docker para .NET](https://docs.docker.com/language/dotnet/build-images/)
+- ElmahCore [Documentação do ElmahCore](https://github.com/ElmahCore/ElmahCore)
 
 
 
