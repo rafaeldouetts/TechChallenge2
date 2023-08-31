@@ -15,7 +15,8 @@
 
 ### Autenticação e autorização
 - Utilizamos O Identity para gerenciar os usuários que se cadastram e logam na aplicação, devolvendo ao usuário um bearer token para utilização dos demais endpoints.
-  ![image](https://github.com/JairJr/TechChallenge2/assets/29376086/0b5b3e85-68fe-48ed-8fc2-a710c59fbba4)
+  ![image](https://github.com/JairJr/TechChallenge2/assets/29376086/25f7e58c-dcf5-492c-9736-e1f9edd7e739)
+
 
 ### Gerenciamento de Noticias
 - Endpoints para manutenção de noticias (CRUD).
