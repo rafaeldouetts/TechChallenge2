@@ -8,6 +8,8 @@
   3. Como ORM, você deve utilizar o Entity Framework Core.
   4. Ela deve utilizar uma pipeline de integração e entrega contínua (CI/CD) no Azure DevOps ou no Github Actions, de modo a automatizar o processo de implantação.
   5. Os artefatos devem ser publicados em uma VM ou container com ACR e ACI.
+ 
+  detalhes no [video](https://youtu.be/QJZsYL85JeM)
   
 ## Funcionalidades
 
