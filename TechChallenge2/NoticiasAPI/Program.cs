@@ -70,6 +70,20 @@ builder.Services.AddHttpClient("Brevo", c =>
 
 var app = builder.Build();
 
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+
+    // Aplicar migrações para NoticiasContext
+    var noticiasContext = services.GetRequiredService<NoticiasContext>();
+    noticiasContext.Database.Migrate();
+
+    // Aplicar migrações para IdentityContext
+    var identityContext = services.GetRequiredService<IdentityContext>();
+    identityContext.Database.Migrate();
+}
+
+
 //if (app.Environment.IsDevelopment())
 //{
     app.UseSwagger();
