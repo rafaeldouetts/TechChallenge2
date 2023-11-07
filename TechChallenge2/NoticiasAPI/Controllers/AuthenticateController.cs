@@ -46,7 +46,10 @@ public class AuthenticateController : ControllerBase
     {
         var userExists = await _userManager.FindByEmailAsync(model.UserName);
 
-        if (userExists is not null)
+        if(string.IsNullOrEmpty(model.UserName))
+			return BadRequest(new ResponseModel { Success = false, Message = "Informe o nome do usuario!" });
+
+		if (userExists is not null)
             return StatusCode(
                 StatusCodes.Status500InternalServerError,
                 new ResponseModel { Success = false, Message = "Usuário já existe!" }
