@@ -1,0 +1,23 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "TechChallenge3" ]
+  pull_request:
+    branches: [ "TechChallenge3" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+    - name: Build the Docker image
+      run: docker compose up --build
+
+    - name: Testes da API REST com Newman
+      run: |
+        cd Postman
+        newman run NoticiasAPI.postman_collection.json --insecure
