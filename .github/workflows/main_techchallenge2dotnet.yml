@@ -5,9 +5,9 @@ name: Build and deploy ASP.Net Core app to Azure Web App - techchallenge2dotnet
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ main ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
